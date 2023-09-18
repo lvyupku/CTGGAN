@@ -92,7 +92,7 @@ class Discriminator(nn.Module):
 
 
 # Load the data
-data_path = "moving_data/预处理过的数据/data.csv"
+data_path = "moving_data/Preprocessed_data/data.csv" 
 dataset = MyDataset(data_path)
 dataloader = DataLoader(dataset, batch_size=32, shuffle=True)
 
